@@ -1,0 +1,501 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+nav{
+    width: 100%;
+   min-height: 15vh;
+    top: -4px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo{
+    width: 180px;
+   
+}
+.text>a{
+    font-family: Poppins;
+color: black;
+text-decoration: none;
+margin-top: 7px;
+font-weight: 400;
+font-size: 33px;
+}
+.hero-section-image{
+    width: 100%;
+}
+
+.hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    width: 60vw;
+    display: flex;
+justify-content: space-between;
+font-weight: 300px;
+}
+
+button{
+    color: #004AAD;
+    font: inter;
+    padding: 10px;
+    border-radius: 50px;
+    border-color:#004AAD;
+}
+.hero-container{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #2266C0;
+}
+.hero-section > h1{
+    color: #fff;
+    width: 100%;
+   
+}
+span{
+    color: black;
+}
+ul{
+    color: #FFFFFF;
+}
+li{
+    text-decoration: dotted;
+    color: #fff;
+    list-style: circle !important;
+    font-weight: 600;
+    size: 32px;
+}
+.border{
+    max-height: 120vh;
+}
+.apply-btn{
+    color: #004AAD;
+    border-radius: 15px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 50px;
+
+}
+.button-color{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+
+}
+.container-product{
+ width: 100%;
+ min-height: 400px;
+}
+
+.-product{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+flex-direction: column;
+}
+
+.product-heading > h1{
+    overflow-y:hidden ;
+    text-align: center;
+    color: #000000;
+}
+
+.product-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img{
+    width: 150px;
+}
+.programs{
+    width: 100%;
+    min-height:190vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.programs-development > h1,h3{  
+    overflow-y:hidden ;
+    
+}
+.programs-development{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 30vh;
+}
+
+.first-card-row{
+    max-height: 80vh !important;
+    display: flex;
+    align-items: center;
+    justify-content:space-around !important;
+    max-width: 100%;
+}
+.space{
+    max-width: 100%;
+    background-color: green;
+    max-height: 80vh !important;
+}
+ 
+.image{
+    display: flex;
+}
+.vectorlogo{
+   
+}
+
+.card{
+    border-radius: 50px !important ;
+    border: 3px solid blue !important;
+    min-height: 30vh !important;
+    display: flex !important;
+    align-items: center !important;
+    
+}
+
+.img-card{
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: hidden;
+    background-size: cover;
+    overflow-x: hidden;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.text-card{
+    max-height: 20vh;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+}
+
+.card-title{
+    overflow-y:hidden ;
+    font-size: 30px;
+}
+
+.body-text{
+    font-size: 14px;
+}
+
+.bluebox{
+    border: 1px solid #FFFFFF;
+     background-color: #B0D1FE21;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     height: 80vh;
+    
+}
+.hheading{
+    display: flex;
+}
+.pheading{
+    font-weight: 600;
+}
+.parent{
+     border: 1px solid #B0D1FE21;
+     background-color: #FFFFFF;
+     width: 90%;
+     min-height: 50vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+}
+.user-image{
+    height: 75px;
+    width: 75px;
+    display: inline;
+    
+}
+.user-details{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-height: 25vh;
+}
+
+h1{
+    overflow-y: hidden;
+}
+.user-bio{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+   
+}
+
+.readmore{
+    text-align: center;
+    align-items: flex-end;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+
+.readmore > a{
+    color: black;
+    text-decoration: none;
+}
+
+.double-quotes{
+    font-size: 40px;
+}
+.you-image{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+}
+
+.youtube{
+    width: 50px;
+}
+.para-para{
+    width:80%;
+    font-style: bold;
+}
+
+.last-line{
+    justify-content: end;
+    display: flex;
+}
+
+.bluebox-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    width: 100%;
+}
+
+.user-details{
+    width: 80%;
+}
+.readviewes{
+    text-decoration: none;
+    margin-top: 30px;
+    width: 20%;
+    margin-bottom: 10px;
+   
+
+}
+
+.scroll-button{
+    border-radius: 5px;
+    width: 100%;
+    min-height: 10%;
+    font-weight: bold;
+
+}
+
+.border{
+    width: 100%;
+    height: 500vh;
+
+}
+
+.center{
+    text-align: center;
+    margin-top: 30px;
+}
+.two-line{
+    text-align: center;
+    font-weight: 600;
+}
+
+.left-side-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overall-box{
+    background-color: #f5f9ff;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 2px 2px solid #d9d9d9;
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.icon-img-box{
+    width: 30%;
+}
+.icon-description{
+    width: 100%;
+}
+.big-image{
+    width: 100%;
+}
+
+
+.placementbox{
+    border: 5px solid #F5F9FF;
+    width: 100%;
+    height: 700px;
+    background-color: #F5F9FF;
+   
+}
+
+.head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bag-profile{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.compaines{
+    text-align: center;
+}
+
+.network{
+    border: 1px solid #004AAD;
+    width: 270px;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chess{
+text-align: center;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.placement-row{
+    justify-content: space-around;
+
+}
+
+.overall-clounm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more{
+    width: 150px;
+    height: 50px;
+    background-color:white;
+    margin-top: 70px;
+    justify-items: center;
+    align-items: center;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn-row > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last{
+width: 90%;
+margin-left: 60px;
+}
+.end{
+    display: flex;
+}
+.abouts{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 100px;
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+}
+.abouttt{
+    color: #004AAD;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+
+
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.about-link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between !important;
+    flex-direction:column ;
+    min-height: 25vh;
+}
+.parent{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
