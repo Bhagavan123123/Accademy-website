@@ -3,6 +3,37 @@
     margin: 0px;
 
 }
+.navbar {
+    justify-content: space-between;
+    font-size: x-large;
+    color:blue ;
+    
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.nav-link {
+    margin: 0 15px;
+    color: #000000;
+    
+}
+.btn-primary{
+    margin-right: 20px;
+    text-decoration: none;
+    border: 5px solid lightblue;
+    color: #004AAD;
+    border-radius: 20px;
+}
+p{
+    font-weight: bold;
+    padding: 10px;
+}
+
 nav{
     width: 100%;
    min-height: 15vh;
@@ -12,9 +43,14 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.small-center > .col-sm-12{
+    align-items: center;
+display: flex;
 
+    justify-content: center;
+}
 .navbar-logo{
-    width: 180px;
+    width: 100%;
    
 }
 .text>a{
@@ -125,10 +161,7 @@ flex-direction: column;
     text-align: center;
    
 }
-.programs-development > h1,h3{  
-    overflow-y:hidden ;
-    
-}
+
 .programs-development{
     display: flex;
     align-items: center;
@@ -157,13 +190,19 @@ flex-direction: column;
 .vectorlogo{
    
 }
+.bluebox{
+    min-height: 100vh;
+}
 
 .card{
-    border-radius: 50px !important ;
+    border-radius: 30px !important ;
     border: 3px solid blue !important;
-    min-height: 30vh !important;
+    min-height: 50vh !important;
     display: flex !important;
     align-items: center !important;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
@@ -214,7 +253,7 @@ flex-direction: column;
      border: 1px solid #B0D1FE21;
      background-color: #FFFFFF;
      width: 90%;
-     min-height: 50vh;
+     min-height: 30vh;
      justify-content: center;
      align-items: center;
      display: flex;
@@ -235,21 +274,22 @@ flex-direction: column;
     max-height: 25vh;
 }
 
-h1{
-    overflow-y: hidden;
-}
-.user-bio{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .user-img{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.user-bio > h1{
+    text-align: left;
+    padding: 10px;
+}
+
+.user-bio > p{
+    padding: 10px;
 }
 
 .quote-text{
@@ -309,6 +349,7 @@ h1{
 
 .profile {
     width: 100%;
+   height: 13vh;
 }
 
 .user-details{
@@ -328,6 +369,7 @@ h1{
     width: 100%;
     min-height: 10%;
     font-weight: bold;
+    margin-bottom: 30px;
 
 }
 
@@ -415,6 +457,7 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
 .chess{
 text-align: center;
 
@@ -422,19 +465,29 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.placement-row{
-    justify-content: space-around;
+
+.card-body{
+    width: 300px;
+    min-height: 200px;
 
 }
-
-.overall-clounm{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.chat{
+   width: 100px !important;
 }
+
+.card-img-top {
+
+    object-fit: cover;
+}
+.card {
+    margin-bottom: 20px;
+    min-height: 40vh;
+}
+
 .more{
     width: 150px;
     height: 50px;
+    margin-bottom: 20px;
     background-color:white;
     margin-top: 70px;
     justify-items: center;
@@ -498,4 +551,124 @@ margin-left: 60px;
 .parent{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
+}
+
+@media screen and ( min-width: 300px ) and (max-width : 700px) {
+    .programs{
+        width: 380px;
+display: flex;
+padding: 0;
+left: 0;
+right: 0;
+    }
+
+    .programs-development{
+        width: 380px;
+    
+        padding: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .programs-development > h1{
+        font-size: 24px;
+    }
+
+    
+    .programs-development > h3{
+        font-size: 18px;
+        width: 380px;
+    }
+
+    .image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.first-card-row{
+    width: 100%;
+    height: 30vh;
+}
+.card{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.text-card{
+    width: 100%;
+    height: 40vh;
+   
+}
+
+.vectorlogo{
+    width: 40%;
+    height: 60px;
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.vectorlogo > img{
+    display: none;
+}
+
+.bluebox{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.bluebox-row{
+    width: 100%;
+    min-height: 400vh;
+}
+ .left-side-box{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+.overall-clounm{
+    min-height: 50vh;
+}
+ .border{
+    min-height: 200vh;
+ }
+
+ .big-image{
+    width: 100%;
+    }
+.last{
+    width: 100%;
+    min-height: 20vh;
+    align-items: center;
+    
+}
+.aboutss{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.about-link{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
 }
